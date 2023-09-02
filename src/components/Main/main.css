@@ -1,0 +1,23 @@
+.wrap-main{
+  display: flex;
+  flex-direction: row;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.titulo-content{
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 10px;
+  background-color: #4B7F52;
+  border-radius: 10px;
+  color: #fff;
+}
+

@@ -1,0 +1,39 @@
+.wrap-banner{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 75%;
+  height: 150px;
+  margin: 30px;
+  margin-top: 60px;
+  border-radius: 5px;
+}
+
+.banner-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 10px;
+  border: #ccc 2px solid;
+  border-radius: 5px;
+}
+
+.banner-content > h1{
+  display: block;
+  position: absolute;
+  font-size: 50px;
+}
+
+.img-banner{
+  display: block;
+  width: 95%;
+  border-radius: 50%;
+}

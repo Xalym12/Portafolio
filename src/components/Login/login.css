@@ -1,0 +1,75 @@
+.wrapFather{
+  background-image: url(../../assets/images/fondoLogin.jpg);
+  background-size: 100%;
+}
+
+aside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.content-aside{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 40px;
+  margin: 10px auto;
+  margin-top: 5em;
+  background: #4B7F52;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px #000;
+  border-radius: 10px;
+}
+
+.content-aside h2{
+  margin: 0 0 30px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box label{
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+}
+
+.boton-login{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.boton-login input{
+  width: 40%;
+  height: 30px;
+  background-color: #282c34;
+  box-sizing: border-box;
+  border: none;
+  color: #fff;
+  border: #222E50 solid;
+  border-radius: 40px;
+  transition: all 300ms;
+}
+
+.boton-login input:hover{
+  background-color: #222E50;
+  border: #282c34;
+}

@@ -1,0 +1,41 @@
+.card{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 17px;
+  padding: 5px;
+  border: #000 solid;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 300ms;
+  padding: 7rem;
+}
+
+.card:hover{
+  color: #fff;
+  font-size: 17px;
+  border: #000 solid;
+  background-color: #F39237;
+  border-radius: 10px;
+  /*animation: text 300ms;*/
+}
+/*
+@keyframes text{
+  from{
+    margin-left: 100%;
+    width: 300%
+  }
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+*/
+
+.img-card{
+  width: 70px;
+  height: 80px;
+  margin: 10px;
+}
